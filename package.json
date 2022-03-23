@@ -1,0 +1,37 @@
+{
+  "name": "rss-discord",
+  "version": "1.0.0",
+  "description": "A 🤖 Discord Bot and Rss Viewer to view RSS feed from Discord",
+  "main": "src/index.js",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "@graphql-tools/graphql-file-loader": "^7.3.5",
+    "@graphql-tools/load": "^7.5.3",
+    "discord-api-types": "^0.29.0",
+    "discord.js": "^13.6.0",
+    "fast-xml-parser": "^4.0.7",
+    "graphql-request": "^4.1.0",
+    "node-fetch-cache": "^3.0.5",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "scripts": {
+    "update-slash-commands": "node src/register-command.js",
+    "dev": "nodemon src/index.js",
+    "test": "nodemon src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Just-Moh-it/rss-discord.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Just-Moh-it/rss-discord/issues"
+  },
+  "homepage": "https://github.com/Just-Moh-it/rss-discord#readme"
+}
